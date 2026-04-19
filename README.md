@@ -1,43 +1,44 @@
-<<<<<<< HEAD
-**Welcome to your Base44 project** 
+# 🚀 SafeNav360X
 
-**About**
+## 📌 Overview
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+SafeNav360X is a smart safety-focused navigation web app designed to help users find safer routes using real-time data and intelligent insights.
 
-This project contains everything you need to run your app locally.
+---
 
-**Edit the code in your local development environment**
+## ✨ Features
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+* 🧭 Smart route suggestions
+* 🚨 Safety alerts & risk indicators
+* 🗺️ Interactive maps (Leaflet integration)
+* ⚡ Fast UI built with Vite + React
+* 🎨 Modern design using Tailwind CSS
 
-**Prerequisites:** 
+---
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+## 🛠️ Tech Stack
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+* React
+* Vite
+* Tailwind CSS
+* React Leaflet
+* Base44 SDK
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
+---
 
-Run the app: `npm run dev`
 
-**Publish your changes**
+## 🌍 Live Demo
 
-Open [Base44.com](http://Base44.com) and click on Publish.
+(Coming soon...)
 
-**Docs & Support**
 
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+---
 
-Support: [https://app.base44.com/support](https://app.base44.com/support)
-=======
-# SafeNav360X
->>>>>>> d197fea335ce026121205d2218617acf27bdb34b
+## 🚀 Future Improvements
+
+* AI-based safety prediction
+* User authentication
+* Real-time crowd data
+* Mobile app version
+
+ 
