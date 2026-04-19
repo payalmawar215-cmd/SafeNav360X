@@ -1,0 +1,42 @@
+{
+  "name": "SOSEvent",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "User who triggered SOS"
+    },
+    "lat": {
+      "type": "number",
+      "description": "Latitude at SOS trigger"
+    },
+    "lng": {
+      "type": "number",
+      "description": "Longitude at SOS trigger"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "resolved",
+        "false_alarm"
+      ],
+      "default": "active"
+    },
+    "contacts_notified": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of phone numbers notified"
+    },
+    "resolved_at": {
+      "type": "string",
+      "description": "ISO timestamp when resolved"
+    }
+  },
+  "required": [
+    "lat",
+    "lng"
+  ]
+}
